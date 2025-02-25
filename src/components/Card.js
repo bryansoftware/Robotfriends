@@ -6,7 +6,7 @@ import './Card.css';
 const Card = ({ name, email, id }) => {
 	return(				// can only return 1 thing per Component, so make sure everything is wrapped in one big <div>
 		<>
-			<div class='card'>
+			<div className='card'>
 				<img alt='robots' src={`https://robohash.org/${id}?100x100`} />
 				<div>
 					<h3>{name}</h3>
