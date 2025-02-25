@@ -1,0 +1,25 @@
+.card {
+	background: #72AB97;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 30px;
+	width: 200px;
+	height: 300px;
+	transition: width 0.2s;
+	text-align: center;
+	box-shadow: 3px 3px lightgrey;
+}
+
+
+/*center the image within the card */
+.card img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.card:hover {
+	width: 202px;
+	height: 303px;
+}
